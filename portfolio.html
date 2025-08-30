@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio · Portfólio</title>
+  <meta name="description" content="Portfólio pessoal - Portfólio">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body data-page="portfolio">
+  <!-- Cabeçalho e navegação principal -->
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/Profile.jpg" alt="" width="24" height="24" aria-hidden="true">
+      <span>Alessandro Brito</span>
+    </a>
+    <nav class="site-nav" aria-label="Primária">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu">
+        <!-- Links -->
+        <li><a href="index.html">Sobre</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    
+<section>
+  <!-- Portfólio com cards de projetos -->
+  <h1>Portfólio</h1>
+  <div class="grid">
+    <article class="card project">
+      <h2>Projeto de Blog para um futebol de bairro</h2>
+      <p>HTML + CSS puro; layout em Grid/Flex, sem frameworks.</p>
+      <a class="btn small" href="https://alessandroshlk.github.io/projeto-fute-da-marambaia/" target="_blank" rel="noopener">Ver projeto</a>
+      <a class="btn btn-ghost small" href="#" target="_blank" rel="noopener">Código</a>
+    </article>
+    <article class="card project">
+      <h2>Landing Page Pessoal</h2>
+      <p>Estrutura semântica, HTML com CSS e uma pitada de JS.</p>
+      <a class="btn small" href="https://alessandroshlk.github.io/landing-page/" target="_blank" rel="noopener">Ver projeto</a>
+      <a class="btn btn-ghost small" href="#" target="_blank" rel="noopener">Código</a>
+    </article>
+    <article class="card project">
+      <h2>Exercícios usados na Aula da UEPA</h2>
+      <p>Inputs, calculo de IMC, etc.</p>
+      <a class="btn small" href="https://github.com/alessandroshlk/Back-End-JavaScript-UEPA" target="_blank" rel="noopener">Ver projeto</a>
+      <a class="btn btn-ghost small" href="#" target="_blank" rel="noopener">Código</a>
+    </article>
+  </div>
+
+  <p class="hint">Portifólio em expansão</p>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Alessandro Brito. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
